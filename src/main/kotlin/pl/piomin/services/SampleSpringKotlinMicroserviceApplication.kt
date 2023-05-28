@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class SampleSpringKotlinMicroserviceApplication
 
 fun main(args: Array<String>) {
+    println("Hello, World!")
     runApplication<SampleSpringKotlinMicroserviceApplication>(*args)
 }
